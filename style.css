@@ -56,6 +56,26 @@ p {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+  transition: background 200ms ease;
+  cursor: pointer;
+}
+
+.box-red:hover {
+  background-color: hsl(0, 78%, 62%);
+}
+.box-cyan:hover {
+  background-color: hsl(180, 62%, 55%);
+}
+.box-orange:hover {
+  background-color: hsl(34, 97%, 64%);
+}
+.box-blue:hover {
+  background-color: hsl(212, 86%, 64%);
+}
+
+.box:hover h2,
+.box:hover p {
+  color: #fff;
 }
 
 .box::after {
